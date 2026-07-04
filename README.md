@@ -151,6 +151,23 @@ encoder, 91-speaker sensitive attribute, transcription-preserving task attribute
 MI(embedding; speaker) from 1.5556 to ~0.19 during training and speaker AUROC from 0.9953 to
 0.7160 at evaluation, at a cost of about 2 WER points.
 
+### Visualizing the Effect
+
+t-SNE projections of the test-set embeddings, colored by speaker ID. Tight, separable clusters
+mean speaker identity is easy to recover from the embedding; a blended, overlapping cloud means
+it isn't.
+
+**Before WavShape** — raw Whisper encoder embeddings. Speakers form distinct, well-separated
+clusters, consistent with the 0.9953 AUROC above.
+
+![t-SNE of raw Whisper embeddings, colored by speaker](results/tsne_baseline.png)
+
+**After WavShape** — same test set, projected through the trained WavShape encoder (768→64 dims).
+Clusters largely collapse into each other, matching the drop to 0.7160 AUROC and the 68.3% MI
+reduction.
+
+![t-SNE of WavShape-projected embeddings, colored by speaker](results/tsne_wavshape.png)
+
 ### Comparison with the WavShape Paper
 
 | Dataset | MI Reduction | AUROC Reduction |
@@ -195,3 +212,7 @@ and on OpenAI's Whisper and the MyST Children's Speech Corpus (Boulder Learning 
 This project's own code is licensed under the MIT License — see [LICENSE](LICENSE). The
 `WavShape/` submodule is a separate repository under its own MIT license
 (UTAustin-SwarmLab/WavShape); its terms apply to that code independently.
+
+## Contact
+
+- Navaneet Jayakrishnan — [@nav-jk](https://github.com/nav-jk)
