@@ -6,7 +6,7 @@
 
 ---
 
-## Phase 1: ASR Baseline ✅
+## Phase 1: ASR Baseline 
 
 ### Dataset
 | Split | Samples |
@@ -39,7 +39,7 @@
 
 ---
 
-## Phase 2: Privacy Baseline Measurement ✅
+## Phase 2: Privacy Baseline Measurement 
 
 ### Method
 - Extracted Whisper encoder embeddings for all 13,169 test samples → `(13169, 768)`
@@ -56,7 +56,7 @@
 
 ---
 
-## Phase 3: WavShape Privacy Layer ✅
+## Phase 3: WavShape Privacy Layer 
 
 ### Setup
 - Cloned WavShape repo (UTAustin-SwarmLab/WavShape)
@@ -84,7 +84,7 @@ Privacy MI  I(embedding; speaker):  0.190  ← down from 1.5556
 
 ---
 
-## Phase 4: Privacy Evaluation After WavShape ✅
+## Phase 4: Privacy Evaluation After WavShape 
 
 ### Results — Before vs After
 
