@@ -1,0 +1,8 @@
+{
+  "model": "whisper-small-finetuned-myst",
+  "wer": 0.1648,
+  "speaker_auroc": 0.9953125,
+  "mi_speaker": 1.5556155681610107,
+  "n_test_samples": 13169,
+  "n_speakers": 91
+}

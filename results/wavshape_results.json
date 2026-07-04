@@ -1,0 +1,9 @@
+{
+  "model": "whisper-small-finetuned-myst+wavshape",
+  "wer": "recheck_needed",
+  "speaker_auroc": 0.7160156249999999,
+  "mi_speaker": 0.4933355605602264,
+  "embedding_dim": 64,
+  "mi_reduction_pct": 68.28679458746811,
+  "auroc_reduction_pct": 28.06122448979593
+}

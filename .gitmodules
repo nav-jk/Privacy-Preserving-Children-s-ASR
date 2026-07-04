@@ -1,0 +1,3 @@
+[submodule "WavShape"]
+	path = WavShape
+	url = https://github.com/UTAustin-SwarmLab/WavShape.git

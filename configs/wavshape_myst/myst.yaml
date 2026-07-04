@@ -1,0 +1,17 @@
+defaults:
+  - encoder: myst
+  - simulation: myst
+  - dataset: myst
+  - _self_
+
+seed: 42
+device_idx: 0
+
+dataset:
+  train_embeddings_path: "/home/embeddings/embeddings_train.npy"
+  train_label1_path: "/home/embeddings/speaker_label_train.npy"
+  train_label2_path: "/home/embeddings/task_label_train.npy"
+
+hydra:
+  run:
+    dir: ./exps/training/${now:%Y-%m-%d}_${now:%H-%M-%S}

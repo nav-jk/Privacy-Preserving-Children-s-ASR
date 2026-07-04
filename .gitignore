@@ -1,0 +1,33 @@
+# Large generated artifacts -- regenerate via notebooks/2b-finetune-myst.ipynb
+# and src/extract_all_embeddings.py. Do not remove these entries: individual
+# files here exceed GitHub's 100 MB per-file limit and will be rejected on push.
+whisper_finetuned/
+embeddings/*.npy
+embeddings/*.npz
+
+# Raw dataset -- not redistributed, obtain separately (see README > Data Preparation)
+myst-v0.4.2/
+myst_prepared/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# HF / torch caches (top-level only -- WavShape/ is a submodule with its own repo/.gitignore)
+.cache/
+/*.pt
+/*.pth
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini

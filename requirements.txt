@@ -1,0 +1,26 @@
+# Core ML / ASR
+torch>=2.1
+transformers>=4.44
+datasets>=2.19
+evaluate
+jiwer
+
+# Audio
+soundfile
+librosa
+
+# Privacy analysis (speaker classifier, MI, t-SNE)
+numpy
+scikit-learn
+scipy
+matplotlib
+seaborn
+
+# Notebooks
+jupyter
+ipykernel
+
+# NOTE: this list covers the libraries the pipeline imports, but versions are
+# not pinned to what actually produced the results in results/. Once you've
+# confirmed the pipeline reproduces, regenerate this file for real with:
+#   pip freeze > requirements.txt
