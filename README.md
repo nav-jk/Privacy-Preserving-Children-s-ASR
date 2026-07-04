@@ -213,6 +213,3 @@ This project's own code is licensed under the MIT License — see [LICENSE](LICE
 `WavShape/` submodule is a separate repository under its own MIT license
 (UTAustin-SwarmLab/WavShape); its terms apply to that code independently.
 
-## Contact
-
-- Navaneet Jayakrishnan — [@nav-jk](https://github.com/nav-jk)
