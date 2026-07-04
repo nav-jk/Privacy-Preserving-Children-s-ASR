@@ -57,8 +57,8 @@ Concretely, the project asks: **can we reduce how much a Whisper embedding revea
 ## Installation
 
 ```bash
-git clone --recurse-submodules https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone --recurse-submodules https://github.com/nav-jk/Privacy-Preserving-Children-s-ASR.git
+cd Privacy-Preserving-Children-s-ASR
 pip install -r requirements.txt
 ```
 
@@ -195,7 +195,3 @@ and on OpenAI's Whisper and the MyST Children's Speech Corpus (Boulder Learning 
 This project's own code is licensed under the MIT License — see [LICENSE](LICENSE). The
 `WavShape/` submodule is a separate repository under its own MIT license
 (UTAustin-SwarmLab/WavShape); its terms apply to that code independently.
-
-## Contact
-
-- [Your Name] — [your.email@example.com]
